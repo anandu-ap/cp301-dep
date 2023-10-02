@@ -1,0 +1,37 @@
+.authorityApplicationTable{
+    height: 500px;
+    padding: 20px;
+    width: 100%;
+
+    .cellWithStatus{
+        padding: 5px;
+        border-radius: 5px;
+
+        &.Approved{
+            background-color: rgba(0,128,0,0.05);
+            color: green;
+        }
+        &.Pending{
+            background-color: rgba(255,217,0,0.05);
+            color: orange;
+        }
+        &.Rejected{
+            background-color: rgba(255,217,0,0.05);
+            color: crimson;
+        }
+    }
+
+    .cellAction{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        .viewButton{
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: darkblue;
+            border: 1px dotted darkblue;
+            cursor: pointer;
+        }
+    }
+}

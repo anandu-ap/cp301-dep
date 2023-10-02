@@ -1,0 +1,35 @@
+.approvetable{
+    height: 500px;
+    padding: 20px;
+    width: 100%;
+
+    .cellAction{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        .viewButton{
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: darkblue;
+            border: 1px dotted darkblue;
+            cursor: pointer;
+        }
+
+        .approveButton{
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: green;
+            border: 1px dotted green;
+            cursor: pointer;
+        }
+
+        .rejectButton{
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: crimson;
+            border: 1px dotted crimson;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.userList{
+    height: 500px;
+    padding: 20px;
+    width: 100%;
+
+    .cellAction{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        .editButton{
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: darkblue;
+            border: 1px dotted darkblue;
+            cursor: pointer;
+            .icon{
+                width: 15px;
+                height: 15px;
+            }
+        }
+
+        .deleteButton{
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: crimson;
+            border: 1px dotted crimson;
+            cursor: pointer;
+        }
+    }
+}
